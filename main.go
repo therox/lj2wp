@@ -91,6 +91,8 @@ func postToWP(fileContents []string) error {
 
 		} else if strings.HasPrefix(cStr, "ItemID:") {
 
+		} else if strings.HasPrefix(cStr, "Tags:") {
+
 		} else if strings.HasPrefix(cStr, "Picture:") {
 
 		} else if strings.HasPrefix(cStr, "Security:") {
